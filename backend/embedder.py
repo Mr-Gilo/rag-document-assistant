@@ -53,7 +53,7 @@ def retrieve_relevant_chunks(
 
     results = []
     for dist, idx in zip(distances[0], indices[0]):
-        if idx < len(chunks):
+        if idx < len(chunks) and dist < 1e+10:
             results.append((chunks[idx], float(dist)))
 
     return results
