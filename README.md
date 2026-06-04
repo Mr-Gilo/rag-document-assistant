@@ -21,7 +21,7 @@ SentenceTransformer (all-MiniLM-L6-v2)
 FAISS Vector Index
 ↓
 Query → Semantic Similarity Search
-↓
+↓z
 Top-K Relevant Chunks Retrieved
 ↓
 Ollama (llama3.2) + Context Prompt
