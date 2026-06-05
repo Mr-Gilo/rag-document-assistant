@@ -42,8 +42,8 @@ Grounded Answer + Source Citations
 
 ## Features
 
-- Local LLM inference via Ollama — no API keys required
-- Local embeddings via SentenceTransformers — no cloud dependency
+- Local LLM inference via Ollama - no API keys required
+- Local embeddings via SentenceTransformers - no cloud dependency
 - FAISS vector search for fast semantic retrieval
 - Source citations showing exactly which document chunks were used
 - Two query modes: direct upload or pre-indexed for repeated use
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-**Terminal 1 — Backend:**
+**Terminal 1 - Backend:**
 ```bash
 conda activate rag-assistant
 cd backend
@@ -91,7 +91,7 @@ python main.py
 Backend runs at http://localhost:8001
 API docs at http://localhost:8001/docs
 
-**Terminal 2 — Frontend:**
+**Terminal 2 - Frontend:**
 ```bash
 conda activate rag-assistant
 streamlit run app.py
@@ -135,7 +135,3 @@ adding semantic search and retrieval-augmented generation.
 - [x] Document pre-indexing for repeated queries
 - [x] FastAPI REST backend
 - [x] Streamlit frontend
-- [ ] Docker containerisation
-- [ ] Persistent vector store (ChromaDB)
-- [ ] Multi-document cross-querying
-- [ ] Confidence score filtering
