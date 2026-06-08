@@ -135,3 +135,4 @@ adding semantic search and retrieval-augmented generation.
 - [x] Document pre-indexing for repeated queries
 - [x] FastAPI REST backend
 - [x] Streamlit frontend
+- [x] Docker containerisation
